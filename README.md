@@ -1,4 +1,4 @@
-# Ticke-Tacke-Tocke!
+# Tic-Tac-Toe!
 
 The most normal tic-tac-toe experience!
 
