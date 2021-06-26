@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scoreboard-parent {
+    text-align: center;
+}
+
+.scoreboard-parent div {
+    display: inline-block; 
+	width: 500px; 
+	min-height: 50px;  
+	height: auto;
+    padding-bottom: 50px;
+    color: whitesmoke;
+}
+
+.scoreboard-px {
+    text-align: center;
+}
+
+.scoreboard-po {
+    text-align: center;
+}
+
+.game {
+    padding: 40px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px whitesmoke;
+}
+
+.gameboard {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px whitesmoke;
+}
+
+.slots {
+    height: 145px;
+    width: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px whitesmoke;
+    background-color: black;
+    font-size: 25px;
+}
+
+.checked-o {
+    background-color: white;
+}
+
+.checked-x {
+    background-color: white;
+}
+
+.button-parent {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.buttonChangePlayer {
+    padding: 30px;
+}
+
+.midgame-button {
+    display: none;
+}
